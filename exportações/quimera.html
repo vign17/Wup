@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake up</title>
+    <style>
+        body {
+        background-image: url("https://wallpaperaccess.com/full/1079100.jpg");
+        background-color: rgb(181, 225, 232);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        background-size: 100% 100%;
+        }
+
+        header>p {
+        height: 5vh;
+        width: auto;
+        text-align: center;
+        font-size: max(6.5vw, 10vh);
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.9);
+        margin: max(2.5vw, 5vh);
+        }
+
+        #menu {
+        position: sticky;
+        top:0;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: max(6.5vw, 10vh);
+        background: rgb(0, 159, 40);
+        width: auto;
+        height: max(4vw, 8vh);
+        z-index: 9999;;
+        }
+
+        div {
+        text-align: justify;
+        }
+
+        .ops {
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: max(1.75vw, 3.5vh);
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+        margin-top: max(0.4vw, 0.8vh);
+        align-items: center;
+        width: max(15vw, 30vh);
+        /*min-width: min-content;
+        max-width: 100px;
+        width: 100%;*/
+        height: max(3vw, 6vh);
+        border: 1px #fff solid;
+        border-radius: max(0.5vw, 1vh);
+        /*margin-left: max(3vw, 3%);*/
+        }
+
+        .ops:hover {
+        font-size: max(2vw, 4vh);
+        text-shadow: 2px 2px rgba(19, 86, 4, 0.6);
+        background: rgb(0, 214, 32);
+        cursor: pointer;
+        }
+
+        main {
+        width: auto;
+        height: auto;
+        }
+
+        #T2 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        mix-blend-mode:difference;
+        font-size: max(1.8vw, 3.6vh);
+        margin-top: max(5vw, 10vh);
+        width: max(80%, 65vh);;
+        height: max(25vw, min-content);
+        }
+
+        #corpo {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: max(1.5vw, 3vh);
+        margin-top: max(5vw, 10vh);
+        background: rgba(200, 200, 200, 0.3);
+        border: 1px #fff thick;
+        width: max(85%, 60vh);
+        height: max(25vw, min-content);
+        border-radius: max(1vw, 2vh);
+        }
+
+        .ct {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+
+        #op1 {
+        display: flex;
+        justify-content: center;
+        font-size: max(1.75vw, 3.5vh);
+        text-align: center;
+        margin-top: max(2.5vw, 5vh);
+        align-items: center;
+        width: max(10vw, 20vh);
+        height: max(3vw, 6vh);
+        border: 1px #fff solid;
+        border-radius: max(0.5vw, 1vh);
+        cursor: pointer;
+        background: rgba(200, 200, 200, 0.3);
+        }
+
+        #op1:hover {
+        font-size: max(2vw, 4vh);
+        color: #fff;
+        background: rgba(200, 200, 200, 0.3);
+        }
+
+        #corpo2 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: max(1.5vw, 3vh);
+        margin-top: max(5vw, 10vh);
+        background: rgba(200, 200, 200, 0.3);
+        border: 1px #fff thick;
+        width: max(85%, 60vh);
+        height: max(25vw, min-content);
+        border-radius: max(1vw, 2vh);
+        padding: 5px;
+        }
+
+        #cfim {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 10vw;
+        }
+
+        .fim {
+        width: calc(100% / 3);
+        height: auto;
+        text-align: center;
+        align-content: center;
+        }
+
+        #prev {
+        position: relative;
+        display: flex;
+        margin-top: 5vw;
+        align-items: center;
+        justify-content: center;
+        height: 5vw;
+        }
+
+        footer {
+        font-size: max(1.3vw, 2.6vh);
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        background: rgba(220, 220, 220, 0.9);
+        padding-bottom: 1vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Wup</p>
+    </header>
+    <div id="menu">
+        <div class="ops">Home</div>
+        <div class="ops">Estatísticas</div>
+        <div class="ops">Dispositivo</div>
+        <div class="ops" id="oplast">Login</div>
+    </div>
+    <main>
+        <div class="ct">
+            <div id="T2" align="center">
+                O projeto wake up ou WUP vem para reduzir consideravelmente as taxas de acidentes por dirigir com
+                sono prevenindo que motoristas venham a dormir ao volante
+            </div>
+        </div>
+        <div class="ct">
+            <div id="corpo" align="center">Diariamente em torno de 32 pessoas perdem a vida em acidentes. Desses acidentes, cerca
+                de 40% têm como causa a sonolência por parte dos motoristas. Inclusive, dirigir com sono pode fazer
+                o motorista não praticar a direção defensiva, que é o ato de conduzir de modo a evitar acidentes,
+                apesar de ações erradas de outros motoristas, como por exemplo desviar rapidamente de um carro que
+                entrou na contramão, esse ato não se torna possível quando o não se está devidamente alerta. Além
+                disso, motoristas que dormiram menos de sete horas na noite anterior, dobram o risco de acidente ao
+                volante, se tornando a segunda maior causa de acidentes de trânsito. Acidentes por sonolência tem
+                seus efeitos no trânsito comparados com o do álcool, porém diferente do álcool que é sempre
+                noticiado e comentado a sonolência é pouco debatida e criticada o que prejudica na conscientização
+                das pessoas acerca desse tema. As causas para o sono ao volante são diversas, indo de transtornos de
+                sono a rotinas pesadas. Infelizmente não se pode mudar a vida da pessoa para que ela não sinta sono,
+                porém com a tecnologia podemos prevenir que ela venha a dormir ao volante.                
+            </div>
+        </div>
+        <div class="ct">
+            <div id="op1" align="center">
+                Estatísticas
+            </div>
+        </div>
+        <div class="ct">
+            <div id="corpo2" align="center">O WUP consiste
+                basicamente em um óculos ou chapéu que notaria os sinais de sonolência, como: piscadas mais
+                longas, ou as popularmente conhecidas “pescadas”, que são pequenas sonecas ou fechadas de olho
+                quando se está muito cansado. Notados esses sinais, emitiria um som para acordar o motorista e
+                mantê-lo alerta. Em caso de serem usados por motoristas de empresas, transmitir a informação do
+                estado do motorista a eles para que se conscientizem dos perigos que o motorista pode causar e vejam
+                se devem ou não continuar com ele. Dessa forma, o wup tem como seu principal objetivo deixar o
+                trânsito mais seguro a todos, pois se usado nos motoristas em geral, reduziria drasticamente os índices
+                de acidentes. O seu uso em empresas já será benéfico tanto para os motoristas, quanto para as
+                empresas já que terão alguém mais desperto tomando conta da sua carga. Assim, protegendo tanto a
+                vida como a mercadoria. Tudo isso com o uso prático da tecnologia do nosso wake up.
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="prev">Contatos e outros links</div>
+        <div id="cfim">
+            <div class="break"></div>
+            <div class="fim">
+                Links <br><br>O que é Wup<br>Como adquirir<br>Área da empresa
+            </div>
+            <div class="fim">
+                Documentação <br><br>doc1<br>doc2 <br>doc3
+            </div>
+            <div class="fim">
+                Contatos <br><br>Equipe idealizadora<br>Telefone<br>Email
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("corpo").style.visibility="hidden";
+        document.getElementById("corpo2").style.visibility="hidden";
+        document.getElementById("op1").style.visibility="hidden";
+        var num = 0
+        var lp = -15
+        var dx = 10
+
+        function op(){
+            document.getElementById("corpo").style.visibility="visible";
+            document.getElementById("corpo").style.opacity=num;
+            document.getElementById("corpo").style.marginLeft=lp+"vw";
+            num += 0.02/3
+            lp +=0.1
+            /*lp += dx
+            dx *= 0.95*/
+        }
+
+        var num2 = 0
+        var lp2 = -15
+
+        function ap(){
+            document.getElementById("corpo2").style.visibility="visible";
+            document.getElementById("corpo2").style.opacity=num2;
+            document.getElementById("corpo2").style.marginLeft=lp2+"vw";
+            num2 += 0.02/3
+            lp2 +=0.1
+        }
+
+        var num3 = 0
+        var lp3 = -15
+
+        function ep(){
+            document.getElementById("op1").style.visibility="visible";
+            document.getElementById("op1").style.opacity=num3;
+            document.getElementById("op1").style.marginLeft=lp3+"vw";
+            num3 += 0.02/3
+            lp3 +=0.1
+        }
+            
+        for(var i=0;i<150;i++){
+            setTimeout(op, 10*i);
+            setTimeout(ap, 1000+10*i);
+            setTimeout(ep, 1800+10*i);
+        }
+    </script>
+</body>
+
+</html>

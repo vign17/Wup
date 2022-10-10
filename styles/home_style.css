@@ -1,0 +1,224 @@
+body {
+  background-image: url("/projeto/pages/home_road.jpg");
+  background-color: rgb(181, 225, 232);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  background-size: 100% 100%;
+}
+
+i{
+  margin-right: max(0.5vw,1vh);
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu {
+  padding: 0%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  background: rgb(240,112,0);
+  height: max(5vw, 10vh);
+  z-index: 9999;
+}
+
+#texthead {
+  position: relative;
+  left: max(10vw,20vh);
+  margin: 0;
+  font-size: max(4vw, 8vh);
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+#navbar{
+  display: flex;
+  position: absolute;
+  right: 0%;
+}
+
+.ops {
+  text-indent: 10%;
+  display: flex;
+  padding-right: max(1vw,2vh);
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: max(1.7vw, 2.5vh);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  height: max(5vw, 10vh);
+  border-left: 1px #fff solid;
+  border-right: 1px #fff solid;
+  border-radius: 0%;
+  
+}
+
+.ops:hover {
+  text-shadow: 2px 2px rgba(202, 94, 0, 0.6);
+  background: rgb(255, 124, 9);
+  cursor: pointer;
+}
+
+.ops2 {
+  position: fixed;
+  /*visibility: hidden;*/
+  display: flex;
+  justify-content: center;
+  background: rgb(240, 112, 0);
+  color: #fff;
+  font-size: max(1.75vw, 2.2vh);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: max(0.4vw, 0.8vh);
+  align-items: center;
+  width: max(15vw, 12vh);
+  height: max(4vw, 8vh);
+  left: 0;
+  z-index: 9999;
+}
+
+.ops2:hover {
+  text-shadow: 2px 2px rgba(202, 94, 0, 0.6);
+  background: rgb(255, 124, 9);
+  cursor: pointer;
+}
+
+#op21 {
+  margin-top: 0;
+}
+
+#op22 {
+  top: max(8.6vw, 17.2vh);
+}
+
+#op23 {
+  top: max(12.6vw, 25.2vh);
+}
+
+#oplast2 {
+  top: max(16.6vw, 33.2vh);
+}
+
+#oplast22 {
+  top: max(20.6vw, 41.2vh);
+}
+
+#p3arts {
+  font-size: max(5vw, 7vh);
+  margin-left: 0.5vw;
+  margin-top: 1vh;
+  color: #fff;
+}
+
+#p3arts :hover {
+  font-size: max(6vw, 8vh);
+  cursor: pointer;
+}
+
+main {
+  width: auto;
+  height: auto;
+}
+
+#T2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: max(1.8vw, 3.6vh);
+  margin-top: max(5vw, 10vh);
+  width: max(80%, 40vh);
+  height: max(25vw, min-content);
+}
+
+#corpo {
+  color: rgb(255, 255, 255);
+  font-size: max(1.5vw, 2.5vh);
+  margin-top: max(5vw, 10vh);
+  background: rgba(200, 200, 200, 0.3);
+  border: 1px #fff thick;
+  width: max(85%, 30vh);
+  height: max(25vw, min-content);
+  border-radius: max(1vw, 2vh);
+}
+
+.ct {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#op1 {
+  display: flex;
+  justify-content: center;
+  font-size: max(1.75vw, 2.3vh);
+  text-align: center;
+  margin-top: max(2.5vw, 5vh);
+  align-items: center;
+  width: max(10vw, 20vh);
+  height: max(3vw, 6vh);
+  border: 1px #fff solid;
+  border-radius: max(0.5vw, 1vh);
+  cursor: pointer;
+  background: rgba(200, 200, 200, 0.3);
+}
+
+#op1:hover {
+  font-size: max(2vw, 3vh);
+  color: #fff;
+  background: rgba(200, 200, 200, 0.3);
+}
+
+#corpo2 {
+  color: rgb(255, 255, 255);
+  font-size: max(1.5vw, 2.5vh);
+  margin-top: max(5vw, 10vh);
+  background: rgba(200, 200, 200, 0.3);
+  border: 1px #fff thick;
+  width: max(85%, 30vh);
+  height: max(25vw, min-content);
+  border-radius: max(1vw, 2vh);
+  padding: 5px;
+}
+
+#cfim {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.fim {
+  width: calc(100% / 3);
+  height: auto;
+  text-align: center;
+  align-content: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#prev {
+  font-size: max(1.5vw, 3vh);
+  position: relative;
+  display: flex;
+  margin-top: 5vw;
+  align-items: center;
+  justify-content: center;
+  height: max(5vw, 10vh);
+  padding-bottom: 2vh;
+  border-bottom: 2px solid #000;
+}
+
+footer {
+  font-size: max(1.3vw, 2.3vh);
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background: rgba(220, 220, 220, 0.9);
+  padding-bottom: 1vh;
+}
