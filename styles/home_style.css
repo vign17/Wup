@@ -1,5 +1,5 @@
 body {
-  background-image: url("/projeto/pages/home_road.jpg");
+  background-image: url("../pages/home_road.jpg");
   background-color: rgb(181, 225, 232);
   background-repeat: no-repeat;
   background-attachment: fixed;
