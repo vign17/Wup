@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,16 @@
     <link rel="stylesheet" href="../styles/Erro1_style.css">
     <title>Login não efetuado</title>
 </head>
+
 <body>
     <div>Você deve acessar a página de usuário pela página de <a href="login.html">login</a></div>
-    <script src="../scripts/Erro1_script.js"></script>
+    <script>
+        function tradepage() {
+            window.location.replace("login.html")
+        }
+
+        setTimeout(tradepage, 5000)
+    </script>
 </body>
+
 </html>
