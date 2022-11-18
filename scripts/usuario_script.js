@@ -75,5 +75,5 @@ setInterval(celular, 1000)
 var state=0
 
 if(state==0){
-    window.location.replace("https://htmlpreview.github.io/?https://raw.githubusercontent.com/vign17/Wup/main/pages/Erro1.html")
+    window.location.href="../pages/Erro1.html"
 }
