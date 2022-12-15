@@ -72,8 +72,8 @@ function clk3() {
 
 setInterval(celular, 1000)
 
-var state=0
+/*var state=0
 
 if(state==0){
     window.location.href="../pages/Erro1.html"
-}
+}*/
